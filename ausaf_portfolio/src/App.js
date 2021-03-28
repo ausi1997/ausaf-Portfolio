@@ -1,8 +1,9 @@
 import './App.css';
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div><h3>My Portfolio</h3></div>
+    <NavBar></NavBar>
   );
 }
 
