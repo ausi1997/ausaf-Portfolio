@@ -3,13 +3,18 @@ import NavBar from "./components/NavBar";
 import Home from "./components/home/home.";
 import Title from "./components/title/title";
 import AboutMe from "./components/about/about";
+
+//import Container from "react-bootstrap/Container";
+//import {Parallax , Background} from "react-parallax";
+//import Fade from "react-reveal/Fade";
 function App() {
   return (
-    <div>
+    <div className="App" style={{ position: "relative" }}>
     <NavBar></NavBar>
     <Home></Home>
     <Title></Title>
-    <AboutMe></AboutMe>
+    <AboutMe></AboutMe> 
+    
     </div>
   );
 }

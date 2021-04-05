@@ -41,17 +41,17 @@ Currently I am Pursuing Product Engineering from School of Accelerated Learning 
 </a>
 </div>
 <div>
-<a href="#contact">
+<a href="https://drive.google.com/file/d/1cY7BqpNFOic00Zrn_K7UwwH6Ln6w8RMN/view?usp=drivesdk">
 <Button className="m-2" variant="outline-success">My Resume</Button>
 </a>
 </div>
 <div>
-<a href="#contact">
+<a href="https://github.com/ausi1997">
 <Button className="m-2" variant="outline-dark">GitHub</Button>
 </a>
 </div>
 <div>
-<a href="#contact">
+<a href="https://www.linkedin.com/in/ausaf-ahmad-02403917a">
 <Button className="m-2" variant="outline-info">Linkd In</Button>
 </a>
 </div>
