@@ -5,6 +5,7 @@
 .about{
     background-image: url("../../assets/bg/bg1.jpg");
     background-repeat: no-repeat;
+    border-radius: 15px;
 }
 .pt-3{
 font-weight:inherit;
