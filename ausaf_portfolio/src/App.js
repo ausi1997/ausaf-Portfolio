@@ -4,10 +4,11 @@ import Home from "./components/home/home.";
 import Title from "./components/title/title";
 import AboutMe from "./components/about/about";
 import Skills from "./components/skills/skills";
+import Experience from "./components/experience/experience";
 
 import Container from "react-bootstrap/Container";
 //import {Parallax , Background} from "react-parallax";
-//import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide"
 function App() {
   return (
@@ -27,6 +28,14 @@ function App() {
           <Skills />
         </Slide>
       </Container>
+      <div>
+      <Container className="container-box rounded">
+      <Slide bottom duration={500}>
+          <hr />
+          <Experience />
+        </Slide>
+      </Container>
+    </div>
     </div>
   );
 }
