@@ -5,6 +5,7 @@ import Title from "./components/title/title";
 import AboutMe from "./components/about/about";
 import Skills from "./components/skills/skills";
 import Experience from "./components/experience/experience";
+import Project from './components/project-timeline/project';
 
 import Container from "react-bootstrap/Container";
 //import {Parallax , Background} from "react-parallax";
@@ -36,6 +37,12 @@ function App() {
         </Slide>
       </Container>
     </div>
+    <Container className="container-box rounded">
+    <Slide bottom duration={500}>
+      <hr />
+      <Project />
+    </Slide>
+  </Container>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 //import Logo from "../assets/logo/Ausi.png";
 
+
 const NavBar = ()=>{
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
