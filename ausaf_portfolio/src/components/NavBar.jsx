@@ -6,19 +6,19 @@ import Nav from "react-bootstrap/Nav";
 
 const NavBar = ()=>{
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">
+        <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand className='nav main' href="#home">
  Ausi
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#skills">Skills</Nav.Link>
-      <Nav.Link href="#experience">Experience</Nav.Link>
-      <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link className='nav' href="#home">Home</Nav.Link>
+      <Nav.Link className='nav' href="#about">About</Nav.Link>
+      <Nav.Link className='nav' href="#skills">Skills</Nav.Link>
+      <Nav.Link className='nav' href="#experience">Experience</Nav.Link>
+      <Nav.Link className='nav' href="#projects">Projects</Nav.Link>
+      <Nav.Link className='nav' href="#contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
