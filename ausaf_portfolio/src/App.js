@@ -7,6 +7,7 @@ import Skills from "./components/skills/skills";
 import Experience from "./components/experience/experience";
 import Project from './components/project-timeline/project';
 import ContactForm from './components/contact/contact';
+import FooterPanel from './components/footer/footer';
 
 import Container from "react-bootstrap/Container";
 //import {Parallax , Background} from "react-parallax";
@@ -50,6 +51,8 @@ function App() {
           <ContactForm />
         </Fade>
       </Container>
+      <hr />
+      <FooterPanel />
     </div>
   );
 }
