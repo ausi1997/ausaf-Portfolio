@@ -6,6 +6,7 @@ import AboutMe from "./components/about/about";
 import Skills from "./components/skills/skills";
 import Experience from "./components/experience/experience";
 import Project from './components/project-timeline/project';
+import ContactForm from './components/contact/contact';
 
 import Container from "react-bootstrap/Container";
 //import {Parallax , Background} from "react-parallax";
@@ -43,6 +44,12 @@ function App() {
       <Project />
     </Slide>
   </Container>
+  <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactForm />
+        </Fade>
+      </Container>
     </div>
   );
 }
