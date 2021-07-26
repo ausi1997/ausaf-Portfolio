@@ -21,7 +21,7 @@ const AboutMe = ()=>{
 </Row>
 </Column>
 <Column xs={12} md={6}>
-<Row className="align-items-start p-2 my-details rounded" style={{fontFamily:"cursive"}}>
+<Row className="align-items-start p-2 my-details rounded">
 Hi there! I am <strong>&nbsp;Ausaf Ahmad</strong>
 <br /> I am a MERN Stack Web Developer with React.js, Express.js, Node.js, and Mongo DB as my tech stack.
 <br />

@@ -8,7 +8,7 @@ const NavBar = ()=>{
     return(
         <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand className='nav main' href="#home">
- Ausi
+ Ausaf
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
