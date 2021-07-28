@@ -29,7 +29,7 @@ I have done my Graduation (B.Tech) with specialization in Electrical & Electroni
 <br />
 After that I have served as Networking Engineer in a IT Infrastructure Organization for 1 year.
 <br />
-Currently I am Pursuing Product Engineering from School of Accelerated Learning (SOAL) and building up my skills by learning new tech. stack  
+Currently I am Pursuing Product Engineering from School of Accelerated Learning (SOAL) and building up my skills by learning new tech stack.  
 <br />Eager to join a Creative , Problem Solving team. Ability to learn and implement new technologies quickly . Passionate about implementing & launching new products.
 <br /> <br />
 </Row>
@@ -41,7 +41,7 @@ Currently I am Pursuing Product Engineering from School of Accelerated Learning 
 </a>
 </div>
 <div>
-<a href="https://drive.google.com/file/d/1cY7BqpNFOic00Zrn_K7UwwH6Ln6w8RMN/view?usp=drivesdk">
+<a href="https://drive.google.com/file/d/1dav9UkrPbN7bNhAlc2a3kUpR9GWF0Y7f/view?usp=sharing">
 <Button className="m-2" variant="outline-success">My Resume</Button>
 </a>
 </div>
